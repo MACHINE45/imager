@@ -1,0 +1,58 @@
+Game Design Document: Image Puzzle Game
+
+**1. Overview
+
+Title: Image Puzzle Game
+Platform: Web (JavaScript)
+Genre: Puzzle
+Target Audience: Casual players
+**2. Concept
+Create an engaging web-based image puzzle game where players can solve various puzzles by rearranging shuffled image pieces to recreate the original image.
+
+**3. Gameplay Mechanics
+
+Objective: Reconstruct the scrambled image within a limited number of moves.
+Controls: Drag and drop puzzle pieces to swap them.
+Challenge: Increasing difficulty by offering different puzzle sizes and more complex images.
+Progression: Players can unlock new images by completing puzzles or achieving certain scores.
+**4. User Interface (UI)
+
+Main Menu:
+Play: Start the game.
+Settings: Adjust sound, difficulty, etc.
+Credits: View game information and credits.
+In-Game UI:
+Timer: Display remaining time for completion.
+Moves Counter: Display the number of moves made.
+Reset: Allow players to reset the puzzle.
+Game Over:
+Score: Display the player's score and performance.
+Retry: Replay the current puzzle.
+Next: Move on to the next puzzle.
+**5. Art and Graphics
+
+Simple and clear puzzle pieces that are easily distinguishable.
+Aesthetic backgrounds and transitions.
+Clean and intuitive user interface elements.
+**6. Sound and Music
+
+Calm and subtle background music.
+Sound effects for piece swapping, puzzle completion, etc.
+**7. Levels and Progression
+
+Start with a tutorial puzzle to introduce basic mechanics.
+Gradually increase puzzle complexity, introducing larger puzzles and more challenging images.
+Consider implementing a level system or score-based progression.
+**8. Monetization (Optional)
+
+Implement ads between puzzle levels or offer an ad-free version as an in-app purchase.
+Include in-app purchases for unlocking new image packs or hints.
+**9. Technical Details
+
+Use HTML, CSS, and JavaScript for the game development.
+Utilize HTML5 Drag and Drop API for handling puzzle piece movement.
+Store high scores locally or on a server if desired.
+**10. Testing
+
+Test the game across different web browsers and devices for compatibility.
+Conduct playtesting to gather user feedback and identify areas for improvement.
